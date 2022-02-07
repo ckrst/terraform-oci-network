@@ -5,3 +5,7 @@ output "subnet_id" {
 output "security_group_id" {
   value = oci_core_network_security_group.network_security_group.id
 }
+
+output "vcn_id" {
+  value = oci_core_vcn.vcn.id
+}
